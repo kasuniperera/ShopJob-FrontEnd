@@ -1,0 +1,113 @@
+<div class="wrapper">
+    <div class="page-header" style="background-color: rgb(15, 3, 27);">
+            <div class="container">
+                <div class="row">
+                    <br>
+                    <br>
+                    
+                    <div >
+                        <img src="assets\img\addview.jpg" style="margin-left: 50%; height: 600px; width: 600px;">
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <button type="button" class="btn btn-danger" style="margin-left: 45%;" (click)="toggleCollapse()">Apply via Email</button>
+                </div>
+                <br>
+                <br>
+            </div>
+    </div>
+    <div class="page-header" style="background-color: rgb(15, 3, 27);">
+        <div class="container" *ngIf="!isCollapsed">
+                <div class="section landing-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 mr-auto ml-auto">
+                                <h2 class="text-center">Apply via Email</h2>
+                                <form class="contact-form">
+                                    <label>Company:</label>
+                                        <div class="input-group" [ngClass]="{'input-group-focus':focus===true}">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="nc-icon nc-single-02"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Name" (focus)="focus=true" (blur)="focus=false" >
+                                        </div>
+                                        <label>Company Email:</label>
+                                        <div class="input-group" [ngClass]="{'input-group-focus':focus===true}">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="nc-icon nc-single-02"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Name" (focus)="focus=true" (blur)="focus=false" >
+                                        </div>
+                                        <label>Vacancy:</label>
+                                        <div class="input-group" [ngClass]="{'input-group-focus':focus===true}">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="nc-icon nc-single-02"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Name" (focus)="focus=true" (blur)="focus=false" >
+                                        </div>
+                                        <label>Vacancy Ref No:</label>
+                                        <div class="input-group" [ngClass]="{'input-group-focus':focus===true}">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="nc-icon nc-single-02"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Name" (focus)="focus=true" (blur)="focus=false" >
+                                        </div>
+                                        <label>Your Name:</label>
+                                        <div class="input-group" [ngClass]="{'input-group-focus':focus===true}">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="nc-icon nc-single-02"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Name" (focus)="focus=true" (blur)="focus=false" >
+                                        </div>
+                                        <label>Your Contact No:</label>
+                                        <div class="input-group" [ngClass]="{'input-group-focus':focus===true}">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="nc-icon nc-single-02"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Name" (focus)="focus=true" (blur)="focus=false" >
+                                        </div>
+                                        <label>Your Email:</label>
+                                        <div class="input-group" [ngClass]="{'input-group-focus':focus===true}">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="nc-icon nc-single-02"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Name" (focus)="focus=true" (blur)="focus=false" >
+                                        </div>
+                                        <label>Email Subject:</label>
+                                        <div class="input-group" [ngClass]="{'input-group-focus':focus===true}">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="nc-icon nc-single-02"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Name" (focus)="focus=true" (blur)="focus=false" >
+                                        </div>
+                                        <label>Message:</label>
+                                        <div class="input-group" [ngClass]="{'input-group-focus':focus===true}">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="nc-icon nc-single-02"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Name" (focus)="focus=true" (blur)="focus=false" >
+                                        </div>
+                                        <label>Attach Your CV:</label>
+                                        <div class="input-group" [ngClass]="{'input-group-focus':focus===true}">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="nc-icon nc-single-02"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Name" (focus)="focus=true" (blur)="focus=false" >
+                                        </div>
+                                </form>
+                            </div>
+                        </div>
+                        <br>
+                        <div>
+                            <button type="button" class="btn btn-danger" style="margin-left: 45%;">Send</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+    </div>
+</div>
+
